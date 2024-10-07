@@ -17,7 +17,23 @@
     background-position: 50% 20%;}
 
 h2 {text-align:left;
-    margin: 0px;;
+    margin: 1px;;
     font-size: 2em;
     color:gray;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-section {
+    margin: 1px;
+    padding:1px;
+    font-size: 1.5em;
+}
+.image-section {
+    margin-left: auto;
+    
+}
+
