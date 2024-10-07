@@ -1,0 +1,23 @@
+.main-name{
+    text-align:center;
+    margin:0;
+    font-size: 5.5em;
+    color:whitesmoke;
+    text-shadow: 
+        2px 2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        -2px -2px 0px black;
+}
+
+.main-header {
+    background-image: url("images/Kants_header.jpg");
+    background-size: cover;
+    padding-bottom: 150px ;
+    background-position: 50% 20%;}
+
+h2 {text-align:left;
+    margin: 0px;;
+    font-size: 2em;
+    color:gray;
+}
