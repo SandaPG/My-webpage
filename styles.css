@@ -1,9 +1,9 @@
-.main-name{
-    text-align:center;
-    margin:0;
+.main-name {
+    text-align: center;
+    margin: 0;
     font-size: 80px;
-    color:whitesmoke;
-    text-shadow: 
+    color: whitesmoke;
+    text-shadow:
         2px 2px 0px black,
         -2px 2px 0px black,
         2px -2px 0px black,
@@ -13,29 +13,122 @@
 .main-header {
     background-image: url("images/Kants_header.jpg");
     background-size: cover;
-    padding-bottom: 150px ;
-    background-position: 50% 20%;}
+    padding-bottom: 150px;
+    background-position: 50% 20%;
+}
 
-h2 {text-align:center;
-    margin: 0px;;
+h2 {
+    text-align: center;
+    margin: 0px;
+    ;
     font-size: 40px;
-    color:darkgray;
+    color: darkgray;
 }
 
 .intro {
     display: block;
     margin: 10px;
-    overflow: auto;
-    font-size: 20px
+    font-size: 20px;
 }
+
 .list {
     display: inline-block;
     font-size: 20px;
     margin-top: 20px;
 }
+
 .image {
     float: left;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.about-works {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+    margin-top: 150px;
+    font-size: 40px;
+    color: darkgray;
+}
+
+.legacy {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.more-info {
+    text-align: right;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+}
+
+iframe {
+    margin: 10px;
+}
+
+.back {
+    text-align: center;
+    font-size: 30px;
+    color: darkgray;
+    margin: auto;
+    padding: 10px;
+    display: table;
+    border: solid 3px darkgray;
+}
+
+.the-end {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Kants_header.jpg");
+    background-size: cover;
+    background-position: 50% 90%;
+    height: 200px;
+}
+
+.the-end::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.end-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+
+/* .end-text {
+    text-align:center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color:whitesmoke;
+    font-style:italic;
+}
+.the-end {
+    background-image: url("images/Kants_header.jpg");
+    background-size: cover;
+    padding-bottom: 100px ;
+    background-position: 50% 90%;
+} */
